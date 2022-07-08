@@ -23,6 +23,7 @@ def five_caracter
   result = handle5.length
   puts "il y a #{result} handles contenants 5 caractères"
 end
+puts five_caracter
 
 #HANDLE COMMENCENT PAR UNE MAJUSCULE
 def maj
@@ -55,13 +56,7 @@ def position
 end
 puts position
 
-#NBRE HANDLE PAR TAILLE
-def handle_per_size
-  jrn.sort_by {|jrn| jrn.length}
-  if handle[1] == 1
-    count += 1 
-  else 
-end
+
 
 
 
